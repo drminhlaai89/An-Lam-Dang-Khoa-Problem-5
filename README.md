@@ -11,14 +11,12 @@ Installation
 
 1. Clone the repository
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/drminhlaai89/An-Lam-Dang-Khoa-Problem5.git
+   Download Zip.
    ```
 
 2. Install dependencies
-   ```bash
    npm install
-   ```
 
 3. Configure the Database
    - Create a PostgreSQL database named `resource_db`
@@ -33,7 +31,6 @@ Installation
 
 4. Note:
    The server is configured to parse both JSON and URL-encoded payloads using:
-   ```javascript
    app.use(express.json());
    app.use(express.urlencoded({ extended: true }));
    ```
@@ -43,23 +40,19 @@ Installation
 ### Development Mode
 
 Start the development server with hot reloading:
-```bash
 npm run dev
-```
+
+Using the Postman to testing the backend
 
 Production Mode
 
 1. Build the Project: 
    The production start script expects the compiled code in the `dist` directory.
-   ```bash
    npm run build
-   ```
    Ensure that the build step completes and that `dist/server.js` exists.
 
 2. Start the Application: 
-   ```bash
    npm start
-   ```
 
 > **Note:**  
 > If you get an error like "Cannot find module '.../dist/server.js'", it likely means the build was not run or did not complete successfully. Verify that your TypeScript compilation (as configured in your `tsconfig.json`) outputs files to the `dist` folder.
