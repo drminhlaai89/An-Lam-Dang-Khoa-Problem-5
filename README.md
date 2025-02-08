@@ -81,11 +81,11 @@ API Endpoints
 
  Get Resource
 - **Method:** GET  
-- **URL:** `/api/resources/:id`
+- **URL:** `/api/resources/{Your Actual Id}`
 
  Update Resource
 - **Method:** PUT  
-- **URL:** `/api/resources/:id`  
+- **URL:** `/api/resources/{Your Actual Id}`  
 - **Headers:** `Content-Type: application/json`  
 - **Body Example:**
   ```json
@@ -97,7 +97,7 @@ API Endpoints
 
  Delete Resource
 - Method: DELETE  
-- URL: `/api/resources/:id`
+- URL: `/api/resources/{Your actual ID}`
 
 Technologies Used
 
