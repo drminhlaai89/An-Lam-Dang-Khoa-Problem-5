@@ -31,6 +31,7 @@ Installation
 
 4. Note:
    The server is configured to parse both JSON and URL-encoded payloads using:
+   ```
    app.use(express.json());
    app.use(express.urlencoded({ extended: true }));
    ```
