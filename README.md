@@ -6,6 +6,7 @@ Prerequisites
 - Node.js (v14 or higher)
 - PostgreSQL (v12 or higher)
 - npm (Node Package Manager)
+- Postman (use for calling api for testing backend)
 
 Installation
 
